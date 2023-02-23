@@ -11,9 +11,9 @@
     grid-template-rows: 1fr 4fr;
     
 }
-
+/* -------------------header ------------------*/
 .header {
-    background-color: #85CDFD;
+    background-color: #E9F8F9;
     grid-column: 2/ -1;
     display: grid;
     grid-template-rows: 1fr 2fr; 
@@ -52,8 +52,7 @@
     margin-top: 3px;
     
 }
-.header-bottom {
-}
+
 .greet {
     display: flex;
     justify-content: flex-start;
@@ -87,15 +86,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3C84AB;
+    background-color: #537FE7;
 
 }
+/* -------------------header ------------------*/
 .dashboard {
     grid-column: 1 / 2;
     grid-row: 1 / -1;
-    background-color: black;
-
+    background-color: #537FE7;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column;
+    gap: 10px;
+    flex:1;
 }
+.dashboard-header {
+    margin-top: 50px;
+}
+.dashboard div {
+    margin-left:20px;
+}
+
 .side {
     
     background-color: red;
